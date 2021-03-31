@@ -1,11 +1,12 @@
 def getinfo():
-
 print ("Witaj!")
 
-def dodaj () :
-    a = int(input())
-    b = int(input())
-    print (a+b)
+def dodaj (a,b) :
+    wynik = a + b
+    return wynik
   
-getinfo()  
-dodaj()
+getinfo()      
+a = int(input())
+b = int(input())
+print(dodaj(a,b))
+
